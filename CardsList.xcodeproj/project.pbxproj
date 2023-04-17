@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04322D429ED3DA5009B55A3 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04322D329ED3DA5009B55A3 /* NetworkDataFetcher.swift */; };
 		E0B661F729EAB32D00CE7760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B661F629EAB32D00CE7760 /* AppDelegate.swift */; };
 		E0B661F929EAB32D00CE7760 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B661F829EAB32D00CE7760 /* SceneDelegate.swift */; };
 		E0B661FB29EAB32D00CE7760 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B661FA29EAB32D00CE7760 /* CardListViewController.swift */; };
@@ -21,7 +22,7 @@
 		E0B6623929EAB90900CE7760 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = E0B6623829EAB90900CE7760 /* PinLayout */; };
 		E0B6623C29EABC7400CE7760 /* CardListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6623B29EABC7400CE7760 /* CardListModel.swift */; };
 		E0B6623E29EABC8700CE7760 /* CardListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6623D29EABC8700CE7760 /* CardListPresenter.swift */; };
-		E0B6624129EAD64300CE7760 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6624029EAD64300CE7760 /* NetworkManager.swift */; };
+		E0B6624129EAD64300CE7760 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6624029EAD64300CE7760 /* NetworkService.swift */; };
 		E0B6624329EB26F000CE7760 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6624229EB26F000CE7760 /* Models.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E04322D329ED3DA5009B55A3 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		E0B661F329EAB32D00CE7760 /* CardsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B661F629EAB32D00CE7760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0B661F829EAB32D00CE7760 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 		E0B6623429EAB8A700CE7760 /* Colours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
 		E0B6623B29EABC7400CE7760 /* CardListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListModel.swift; sourceTree = "<group>"; };
 		E0B6623D29EABC8700CE7760 /* CardListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListPresenter.swift; sourceTree = "<group>"; };
-		E0B6624029EAD64300CE7760 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E0B6624029EAD64300CE7760 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E0B6624229EB26F000CE7760 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,7 +184,8 @@
 		E0B6624429EB34E400CE7760 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				E0B6624029EAD64300CE7760 /* NetworkManager.swift */,
+				E0B6624029EAD64300CE7760 /* NetworkService.swift */,
+				E04322D329ED3DA5009B55A3 /* NetworkDataFetcher.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -319,8 +322,9 @@
 				E0B6622C29EAB7FD00CE7760 /* UIColor+Hex.swift in Sources */,
 				E0B661F729EAB32D00CE7760 /* AppDelegate.swift in Sources */,
 				E0B6624329EB26F000CE7760 /* Models.swift in Sources */,
+				E04322D429ED3DA5009B55A3 /* NetworkDataFetcher.swift in Sources */,
 				E0B6622E29EAB7FD00CE7760 /* UIViewController+Preview.swift in Sources */,
-				E0B6624129EAD64300CE7760 /* NetworkManager.swift in Sources */,
+				E0B6624129EAD64300CE7760 /* NetworkService.swift in Sources */,
 				E0B6623E29EABC8700CE7760 /* CardListPresenter.swift in Sources */,
 				E0B6623C29EABC7400CE7760 /* CardListModel.swift in Sources */,
 				E0B6622D29EAB7FD00CE7760 /* UIColor+Dynamic.swift in Sources */,

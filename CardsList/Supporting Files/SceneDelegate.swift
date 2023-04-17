@@ -26,8 +26,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 	}
 	
 	func assembly() -> UIViewController {
-		let networkManager = NetworkManager()
-		let cardsListViewController = CardsListViewController(networkManager: networkManager)
+//		let networkManager = NetworkManager()
+		let cardsListViewController = CardsListViewController()
 		return cardsListViewController
 	}
 }
